@@ -11,7 +11,13 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(arg: i32) -> i32 {
+    if arg <= 40 {
+        arg * 2
+    } else {
+        arg
+    }
+}
 
 // Don't modify this function!
 #[test]
